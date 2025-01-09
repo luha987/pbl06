@@ -1,0 +1,219 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #00b300;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form a {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form a:hover {
+    text-decoration: none;
+    background-color: #b30000;
+}
+
+/* Button Styling */
+.edit-button {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #ffd23e;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    text-decoration: none;
+    background-color: #b37400;
+}
+
+.delete-button {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #ff3e3e;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    text-decoration: none;
+    background-color: #b30000;
+}
+
+.add-button {
+    margin-left: 580px;
+    color: #ffffff;
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #ffc400;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    text-decoration: none;
+    background-color: #00b300;
+}
+
+.home-button {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #ffc400 ;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    text-decoration: none;
+    background-color: #00b300;
+}
+
+.server1-button{
+    display: block;
+    text-align: center;
+}
+
+.server2-button{
+    display: block;
+    text-align: center;
+}
+
+.server3-button{
+    display: block;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #444;
+    color: #fff;
+}
+
+footer a {
+    color: #FFD700;
+}
