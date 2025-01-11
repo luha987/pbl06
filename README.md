@@ -1,15 +1,4 @@
 <h1>UAS PBL 06</h1>
- 
-Pakai Framework Django
-
-# Untuk Menjalankannya
-- Run pada cmd dengan perintah "python3 manage.py runserver"
-
-# lalu jalankan juga servernya :
-- python3 manage.py runserver localhost:8001
-- python3 manage.py runserver localhost:8002
-- python3 manage.py runserver localhost:8003
-
 <h2>Kelompok Amburadul</h2>
 <h2>Nama Anggota</h2> 
 <table class="table table-striped">
@@ -69,3 +58,15 @@ Pakai Framework Django
             <td>181080200071</td>
         </tr>
 </table>
+ 
+Pakai Framework Django
+
+# Untuk Menjalankannya
+- Run pada cmd dengan perintah "python3 manage.py runserver"
+
+# lalu jalankan juga servernya :
+- python3 manage.py runserver localhost:8001
+- python3 manage.py runserver localhost:8002
+- python3 manage.py runserver localhost:8003
+
+
