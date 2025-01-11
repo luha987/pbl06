@@ -59,9 +59,8 @@
         </tr>
 </table>
  
-Pakai Framework Django
 
-# Untuk Menjalankannya
+# Untuk Menjalankannya Pakai Framework Django
 - Run pada cmd dengan perintah "python3 manage.py runserver"
 
 # lalu jalankan juga servernya :
